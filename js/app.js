@@ -30,7 +30,7 @@ movieApp.config(function($routeProvider) {
 // create the controller and inject Angular's $scope
 movieApp.controller('mainController', function($scope) {
     // create a message to display in our view
-    $scope.message = 'Everyone come and see how good I look!';
+    $scope.message = 'Only I can come and see how good I look!';
 });
 
 movieApp.controller('nowPlayingController', function($scope) {
